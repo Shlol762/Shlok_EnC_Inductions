@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mpuBreakout")(type "KiCad")(uri "${KIPRJMOD}/mpuBreakout.kicad_sym")(options "")(descr ""))
+  (lib (name "hcsr04Breakout")(type "KiCad")(uri "${KIPRJMOD}/hcsr04Breakout.kicad_sym")(options "")(descr ""))
+)
