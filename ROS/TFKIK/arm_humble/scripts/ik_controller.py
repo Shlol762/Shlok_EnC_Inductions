@@ -59,7 +59,7 @@ class ArmController(Node):
 
     def inverse_kinematics(self, x, y, z):
         """
-        Compute the target joint angles (theta1, theta2, theta3) for the arm.
+        Compute the target joint angles (theta1: base swivel, theta2: shoulder, theta3: elbow) for the arm.
 
         Args:
             x (float): Target X position in world coordinate frame.
@@ -67,7 +67,7 @@ class ArmController(Node):
             z (float): Target Z position in world coordinate frame.
 
         Returns:
-            tuple: (t1, t2, t3) if coordinates are valid and reachable, else None.
+            tuple: (t1: base swivel, t2: shoulder, t3: elbow) if coordinates are valid and reachable, else None.
         """
         t1 = math.atan2(y, x) # base cylinder rotation angle (theta1)
         
