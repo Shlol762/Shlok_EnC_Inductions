@@ -35,8 +35,8 @@ class DoubleAckermannController(Node):
             10
         )
 
-        self.wheelbase = 0.4
-        self.track_width = 0.6
+        self.wheelbase = 0.5
+        self.track_width = 0.3
         self.wheel_radius = 0.12
 
         self.last_linear_x = 1e-5
